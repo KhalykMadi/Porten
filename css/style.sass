@@ -1,0 +1,493 @@
+@import "_mixins"
+body
+    margin: 0 auto
+
+.up-header
+   @include flex-j-center(100%,32px)
+   background: #000000 
+   
+.inner-header
+    @include flex-space-between(58.1%, 100%)
+    /* background: #bb0e0e */
+
+.left-block
+    @include flex-align-center(42%,100%)
+    /* background: #ffbc04 */
+
+.left-block a
+    margin-top: 2px
+    margin: 0
+    @include text-two(0.54em, #969696, 16px, PT Sans, none, nowrap)
+    font-style: normal
+    font-weight: normal
+
+.left-block a img 
+    @include size(11px, 9px,)
+    margin-right: 14px
+    transform: translateY(1px)
+
+.left-block p 
+    margin: 0
+    margin-left: 8px
+    font-style: normal
+    font-weight: normal
+    word-spacing: 1px
+    @include text-two(0.54em, #969696, 16px, PT Sans, none, nowrap)
+   
+.right-block
+    @include flex-align-center(40%,100%)
+    justify-content: end
+    /* background: #ffbc04 */
+
+.right-block a
+   margin-right: 2px
+   font-style: normal
+   font-weight: normal
+   @include text-two(0.54em, #969696, 16px, PT Sans, none, nowrap)
+   transform: translateY(-1px)
+
+.right-block a img 
+    transform: translateY(3px)
+    margin-right: 6px
+
+.list
+   margin-left: 2px
+   font-style: normal
+   font-weight: normal
+   line-height: 16px
+   color: #969696
+   text-decoration: none  
+
+.right-block p
+    transform: translateY(2px)
+    color: #969696
+    text-decoration: none
+
+/* Header */
+.header-do
+    @include flex-j-center(100%, auto)
+    background: #000000
+
+.header-container
+    @include flex-j-center(58.1%,100%)
+    
+.header-inner
+    @include flex-space-between(100%,100%)
+    /* background: #bb0e0e */
+    
+.header-logo a img
+    @include size(73px, 74px)
+    color: #FFFFFF
+
+.header-logo 
+    @include flex-align-center(40%,100%)
+    /* background: #ffbc04 */
+
+.inner-two
+    display: flex
+    width: 48.4%
+
+.nav-right
+    @include size(40%, 85px)
+    /* background: #ffbc04 */
+
+.btn 
+    margin-right: 7px
+    @include size(95px, 100%)
+    background: #000000
+    border: none
+    text-transform: uppercase
+    @include text-two(0.6em, #969696, 18px, PT Sans, none, nowrap)
+    font-style: normal
+    font-weight: normal
+    color: #969696
+    cursor: pointer
+    
+.btn:hover 
+        background: #1F1F1F
+        color: #fff
+
+/* main */
+.img_man 
+    @include flex-center(100%,566px)
+    @include background-img(url("../img/porten.png"), no-repeat, cover)
+    background-position: center
+
+.inner_img 
+    @include flex-center(60%,500px)
+    flex-direction: column
+    /* background-color: violet */
+ 
+ 
+.white_box 
+    margin-top: 11px
+    @include flex-center(216px,217px)
+    flex-direction: column
+    border: 4px solid white
+
+.white_box img
+    margin-top: 10px
+    width: 126px
+    size: 64px
+    
+.line 
+    @include size(126px, 2px)
+    background-color: #fff
+    margin-top: 10px
+ 
+.white_box p 
+    margin: 0
+    @include text-two(0.9em, #ffffff, 28px,PT Sans , none, no-wrap)
+    font-style: normal
+    font-weight: normal
+    text-transform: uppercase
+    color: #ffffff
+ 
+.lorem 
+    padding-top: 46px
+    font-family: PT Sans
+    font-style: normal
+    font-weight: normal
+    font-size: .7em
+    line-height: 150%
+    /* or 24px */
+    text-align: center
+    text-transform: uppercase
+    color: #ffffff
+
+.watch
+    @include flex-j-center(100%,512px)
+    background: #000000
+
+.watch-container
+    display: flex
+    @include size(100%, 100%)
+    // background: #bb0e0e 
+
+.left-watch-container
+    @include flex-align-center(54.1%, 100%)
+    flex-direction: column
+    // background: yellow
+
+.left-watch-heading
+    margin-top: 60px
+    margin-bottom: 23px
+    @include text( 36px, white, 48px, Playfair Display)
+    font-style: normal
+    font-weight: bold
+    
+.left-watch-line
+    margin-bottom: 11px
+    @include size(86px, 1px)
+    background: white
+
+.left-watch-box
+    margin-top: 23px 
+    @include flex-space-between(616px,500px)
+    flex-direction: column
+    // background: brown
+       
+.inner-box
+    display: flex
+    flex-direction: row
+    @include size(100%, 231px)
+    // background: green
+
+.inner-box-one
+    display: flex
+    justify-content: space-between
+
+.inner-box-two
+    display: flex
+    justify-content: space-between
+    height: 101px    
+
+.watch-box
+    @include flex-center(182px,229px)
+    background: #191B1C
+
+.watch-img
+    @include size(150px, 147px)
+    
+.two-watch-box
+    @include size(182px, 100%)
+    // background: blue
+
+.watch-brand-link
+    @include text( 0.79em,#FFFFFF, 24px, Playfair Display)
+    font-style: normal
+    font-weight: normal
+    text-decoration: none
+
+.watch-price-paragraph
+    margin: 0
+    @include text( 0.75em, #FFFFFF, 21px, Playfair Display )
+    font-style: normal
+    font-weight: bold
+    
+.right-watch-container
+    @include flex-j-center(45.9%,100%)
+    align-items: end
+    @include background-img(url("../img/Rectangle8.png"), no-repeat, cover)
+    
+.watch-inner-container
+    @include flex-align-center(270px,185px)
+    flex-direction: column
+    // background: blue
+
+.right-container-heading
+    margin-bottom: 35px
+    color: white
+
+.right-container-btn
+    @include size(96px, 39px)
+    border: 1px solid white
+    background: none
+    color: white
+
+.wrapper-suit
+    @include flex-j-center(100%,422px)
+    background: black
+
+.inner-suit
+    @include flex-space-between(100%,100%)
+    // background: brown
+
+.left-suit-block
+    @include background-img(url("../img/Rectangle9.png"), no-repeat, cover)
+    background-position: center
+    @include size(617px, 422px)
+    
+.right-suit-block
+    @include flex-center(732px,100%)
+    // background: yellow
+  
+.right-suit-container
+    @include flex-align-center(340px, 341px)
+    flex-direction: column
+    // background: blue
+
+.right-suit-heading
+    margin-bottom: 6px
+    @include text(26px, #FFFFFF, 57px, Playfair Display)
+    font-style: normal
+    font-weight: normal
+    text-align: center
+    text-transform: uppercase
+    
+.right-suit-line
+    margin-bottom: 18px
+    width: 84px
+    border: 1px solid white
+    color: white
+
+.right-suit-paragraph
+    @include text( 10px, white, 150%, PT Sans)
+    font-style: normal
+    font-weight: normal
+    text-align: center
+    
+.suit-paragraph-container
+    @include size(330px, 162px)
+    // background: grey
+
+.right-suit-btn
+    margin-top: 13px
+    @include size(216px, 32px)
+    @include text-two(12px, white, 23px, PT Sans, none, no-wrap)
+    font-style: normal
+    font-weight: normal
+    text-align: center
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    background: none
+    border: 1px solid white
+
+
+// arrivals
+
+.new-arrivals
+    @include flex-j-center(100%, 903px)
+    background: black
+
+.inner-arrivals
+    display: flex
+    flex-direction: column
+    @include size(58.1%, 100%)
+    // background: brown
+
+.block-arrivals
+    margin-bottom: 22px
+    @include size(100%, 289px)
+    // background: blue
+
+.one-arrivals-block
+    @include flex-align-center(100%, 131px)
+    flex-direction: column
+    margin-top: 50px
+
+.arrivals-heading
+    margin-top: 29px
+    margin-bottom: 18px
+    font-style: normal
+    font-weight: bold
+    @include text( 25px, #FFFFFF, 48px,)
+    text-align: center
+    text-transform: uppercase
+
+.arrivals-line
+    width: 83px
+    border: 1px solid white
+
+.two-arrivals-block
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+.one-arrivals-container
+   @include flex-space-between(99.3%,227px)
+   
+.two-arrivals-container
+    @include flex-space-between(99.3%,48px)
+    
+.arrivals-clock-block
+    @include flex-center(183px,227px)
+    background-color: #191B1C 
+
+.img-clock
+   @include size(150px, 154px)
+   
+.arrivals-price-container
+    background: black
+    @include size(182px, 48px)
+   
+.three-arrivals-block
+    display: flex
+    flex-direction: column
+    justify-content: space-between    
+
+// jewelry
+
+.jewelry
+    @include flex-j-center(100%, 250px)
+    background: #0F0F0F
+
+.inner-jewelry
+    @include flex-center(58.1%,100%)
+    // background: brown
+
+.block-jewelry
+    @include flex-align-center(50%,70%)
+    flex-direction: column
+    justify-content: start
+
+.jewelry-heading
+    margin: 0
+    margin-bottom: 17px
+    @include text( 26px, #FFFFFF, 48px,  Playfair Display)
+    font-style: normal
+    font-weight: bold
+    text-transform: uppercase
+    
+.jewelry-line
+    width: 82px
+    border: 1px solid white
+    margin-bottom: 32px
+
+.jewelry-inner-container
+    @include flex-space-between(780px,57px)
+    // background: blue
+
+.jewelry-img
+   @include size(179px, 67px)
+   
+.info
+    @include flex-center(100%,279px)
+    @include background-img( url("../img/Rectangle 15.png"), no-repeat, cover)
+    
+.info-block
+    margin-right: 16px
+    @include size(249px, 174px)
+    // background: blue
+
+.info-heading
+    margin: 0
+    @include text( 17px, #FFFFFF, 32px, Playfair Display)
+    font-style: normal
+    font-weight: normal
+    text-transform: uppercase
+    
+.info-paragraph
+    margin-top: 23px
+    @include text( 9.9px, #FFFFFF, 137%, PT Sans)
+    font-style: normal
+    font-weight: normal
+    
+.info-btn-block
+    margin-left: 5px
+    margin-top: 21px
+    @include size(202px, 32px)
+    // background: yellow
+
+.info-btn-one
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 10px
+
+.info-btn-two
+    margin-top: 5px
+
+.btn-info
+    @include text( 11px, #d0d0d0, 144%, PT Sans)
+    font-style: normal
+    font-weight: normal
+    height: 29px
+    border: 1px solid black
+    background: black    
+
+.first-btn
+    width: 52px
+
+.second-btn
+    width: 70px
+
+.third-btn
+    width: 55px
+
+.info-btn-two
+    display: flex
+    justify-content: space-between
+    width: 195px
+
+.four-btn
+    width: 117px   
+
+.five-btn
+    width: 64px
+
+.info-block-tree
+    margin-right: 0
+
+.input
+    font-size: 10px
+    margin-top: 18px
+    @include size(142px, 25px)
+    
+
+.six-btn
+    font-size: 10px
+    width: 92px 
+
+.footer
+    @include flex-j-center(100%,35px)
+    background: black
+
+.inner-footer
+    @include flex-space-between(58.1%,100%)
+    
+.footer-paragraph
+    @include text( 10px, #d0d0d0, 16px, PT Sans)
+    font-style: normal
+    font-weight: normal
+    

@@ -1,0 +1,17 @@
+@media screen and (max-width:1200px) {
+    .left-watch-box{
+        width: 387px;
+    }
+
+    .three-box{
+        display: none;
+    }
+
+    .two-watch-box:nth-child(n+3){
+        display: none;
+    }
+
+    .inner-arrivals{
+        width: 78.1%;
+    }
+}
