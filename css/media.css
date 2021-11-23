@@ -16,13 +16,7 @@
     }
 }
 
-/* @media screen and (max-width: 993px) {
-        .up-header{
-        height: 77px;
-    }
-} */
-
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 992px) and (min-width: 420px){
     .up-header{
     height: 120px;
     }
