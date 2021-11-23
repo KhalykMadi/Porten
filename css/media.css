@@ -16,3 +16,239 @@
     }
 }
 
+/* @media screen and (max-width: 993px) {
+        .up-header{
+        height: 77px;
+    }
+} */
+
+@media screen and (min-width: 480px) {
+    .up-header{
+    height: 120px;
+    }
+
+    .inner-header{
+        width: 90%;
+    }
+
+    .left-block{
+        width: 55%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .left-block a img {
+        width: 35px;
+        height: 34px;
+    }
+
+    /* img */
+    .white_box{
+        margin-top: 0;
+        width: 322px;
+        height: 319px;
+    }
+
+    .white_box img{
+        width: 238px;
+    }
+
+    .line{
+        width: 235px;
+        height: 5px;
+    }
+
+    .white_box p{
+        line-height: 46px;
+        font-size: 1.6em;
+    }
+
+    .left-block a{
+        font-size: 2.1em;
+    }
+
+    .left-block p {
+        font-size: 1.7em;
+    }
+
+    .right-block a {
+        font-size: 2.1em;
+        transform: translateY(-4px);
+    }
+
+    .right-block p{
+        font-size: 40px;
+        transform: translateY(0);
+    }
+
+    .right-block a img{
+        height: 0;
+    }
+
+    .header-container{
+        width: 90%;
+    }
+
+    .header-logo a img{
+        width: 155px;
+    }
+
+    .inner-two{
+        width: 65%;
+        justify-content: space-between;
+    }
+
+    .btn{
+        width: 236px;
+        font-size: 1.5em;
+        line-height: 74px;
+    }
+
+    .lorem{
+        font-size: 1em;
+    }
+
+    /* watch */
+    .watch{
+        height: 573px;
+    }
+
+    .watch-container{
+        flex-direction: column;
+    }
+
+    .right-watch-container{
+        display: none;
+    }
+
+    .two-watch-box:nth-child(n+3){
+        display: flex;
+        flex-direction: column;
+    }
+
+    .three-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-watch-container{
+        width: 100%;
+    }
+
+    .left-watch-box{
+        width: 720px;
+    }
+
+    .left-watch-heading{
+        font-size: 50px;
+    }
+
+    .left-watch-line{
+        width: 210px;
+        border: 2px solid white;
+    }
+
+    .watch-box{
+        width: 230px;
+        height: 268px;
+    }
+
+    .watch-img{
+        width: 203px;
+        height: 203px;
+    }
+
+    .watch-brand-link,
+    .watch-price-paragraph{
+        font-size: 1.4em;
+    }
+
+    .wrapper-suit{
+        height: 600px;
+    }
+
+    .inner-suit{
+        flex-direction: column;
+    }
+
+    .left-suit-block{
+        display: none;
+    }
+
+    .right-suit-container{
+        width: 663px;
+        height: 488px;
+    }
+
+    .right-suit-heading {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .right-suit-line{
+        width: 218px;
+        border: 4px solid white;
+    }
+
+    .suit-paragraph-container{
+        width: 655px;
+        height: 317px;
+    }
+
+    .right-suit-paragraph {
+        font-size: 26px;
+        line-height: 100%;
+    }
+
+    .right-suit-btn{
+        width: 321px;
+        height: 59px;
+        font-size: 20px;
+    }
+
+    .arrivals-heading{
+        font-size: 40px;
+    }
+
+    .arrivals-line{
+        width: 280px;
+        border: 3px solid white;
+    }
+
+    .jewelry{
+        height: 500px;
+    }
+
+    .jewelry-heading{
+        font-size: 50px;
+    }
+
+    .jewelry-line{
+        width: 120px;
+        border: 3px solid white;
+    }
+
+    .jewelry-inner-container{
+        flex-direction: column;
+    }
+
+    .jewelry-img:nth-child(n+3){
+        display: none;
+    }
+
+    .jewelry-img{
+        width: 450px;
+        height: 141px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+}
+
+
