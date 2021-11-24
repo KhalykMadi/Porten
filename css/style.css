@@ -94,6 +94,13 @@ body {
   /* background: #ffbc04 */
 }
 
+.burger {
+  display: none;
+  width: 80px;
+  height: 80px;
+  background: grey;
+}
+
 .right-block a {
   margin-right: 2px;
   font-style: normal;
